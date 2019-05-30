@@ -49,10 +49,25 @@ def aiqiyi_name(a ,b):
     print(b)
     d = a + b
     return d
+a = ['爱奇艺',54,758,'优酷','腾讯','爱奇艺',54,758,'优酷','腾讯','熊猫tv','斗鱼tv',15515]
+def list_type():
+    print(a)
+    b = a [2:4]
+    print(b)
+    c = len(a)
+    print(c)
+    d = a.count('优酷')
+    print(d)
+    a.append('斗鱼TV')
+    print(a)
+    e = ['512','585','695']
+    a.extend(e)
+    print(a)
+    a.append(e)
+    print(a)
+
 if __name__ == '__main__':
-    f = aiqiyi_name('爱奇艺','腾讯')
-    print(f)
-    print(type(f))
+    list_type()
 # python 的运行环境是Python解释器
 # Python 的编写代码的工具有pycharm,专业名字叫做pycharm编辑器,或者集成开发工具
 # 变量名 = 变量
