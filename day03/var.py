@@ -11,5 +11,6 @@ def var_demo3():
     print(a)
 if __name__ == '__main__':
     var_demo1()
-    # var_demo2()
-    var_demo3()
+    var_demo2()
+    # var_demo3()
+    var_demo1()
