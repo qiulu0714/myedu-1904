@@ -65,14 +65,28 @@ def list_type():
     print(a)
     a.append(e)
     print(a)
+# 新建一个字典变量,里面有两个键值对,访问一个值,
+# 删除一个键值对,添加一个键值对,更改任意一个值,
+# 再新建一个字典,将两个合并 ;
 
+def dict_type():
+    adict = {"username": "admin", "password": "123456"}
+    print(adict)
+    print(adict['username'])
+    adict.pop ('username')
+    adict['商品'] = '华为'
+    adict['商品']=('荣耀')
+    bdict = { 'list': ['爱奇艺','腾讯'] ,'tuple':(1,65,125)}
+   # cdict = dict(adict,**bdict)
+    adict.update(bdict)
+    print(adict.update(bdict))
 if __name__ == '__main__':
-    list_type()
+    # list_type()
 # python 的运行环境是Python解释器
 # Python 的编写代码的工具有pycharm,专业名字叫做pycharm编辑器,或者集成开发工具
 # 变量名 = 变量
 # def 方法名():  ; 带参数: def 方法名 (a,b ,c ,...)
 # if __name__ == '__main__': ;  可以直接执行  ; main下面不能添加其他方法
 # return 主要是给方法名()中的括号赋值,如果不加 ()中的值为Nome
-
+    dict_type()
 
