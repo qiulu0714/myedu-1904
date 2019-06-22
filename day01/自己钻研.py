@@ -140,7 +140,7 @@ def return_demo(a,b):
     print(a*b)
     return a/b
 if __name__ == '__main__':
-    if_demo()
+    # if_demo()
     # list_type()
     # tuple_type()
 # date_tyep()
@@ -166,3 +166,16 @@ if __name__ == '__main__':
 # # # 如何调用其他模块的方法?
 # # from 包名 import 文件夹
 # # a= 文件夹.方法名
+
+    for i in range(1,10):
+        for j in range(1,i+1):
+            print('%s*%s=%s'%(j,i,j*i),end=' ')
+        print('  ')
+
+b = [56,46,87,63,25,95,13,28]
+for i in range(len(b)):
+    for j in range(i+1):
+        if i+1 > i :
+            nome = i+1
+            i = i+1
+            i  = nome
