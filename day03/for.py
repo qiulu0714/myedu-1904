@@ -27,4 +27,4 @@ def for_demo5():
             print('世界')
 
 if __name__ == '__main__':
-    for_demo5()
+    for_demo3(15,23)
